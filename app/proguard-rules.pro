@@ -16,6 +16,11 @@
 #   public *;
 #}
 
+#okhttp
 -dontwarn okio.**
 -dontwarn javax.annotation.Nullable
 -dontwarn javax.annotation.ParametersAreNonnullByDefault
+
+#Retofit
+-dontwarn okio.**
+-dontwarn javax.annotation.**

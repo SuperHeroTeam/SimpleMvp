@@ -34,6 +34,10 @@ dependencies {
     //最新RxJava、RxAndroid库：https://github.com/ReactiveX/RxAndroid
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+    //Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
     //最新OkHttp库：https://github.com/square/okhttp
     compile 'com.squareup.okhttp3:okhttp:3.8.1'
     //Google官方权限适配库：https://github.com/googlesamples/easypermissions
